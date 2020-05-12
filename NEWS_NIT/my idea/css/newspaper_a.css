@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+   background-image: url("../image/Newspaper_bg.png");
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 0;
+  width:100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  
+   
+}
+
+.topnav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.topnav a:hover {
+  background-color:red;
+  color:white;
+}
+
+.topnav a.active {
+  background-color:red;
+  color:white;
+}
+ 
+ 
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Giddyup Std;
+  font-size:3em;
+  text-align:center;
+  height:100px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:92%;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.7);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay h1{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  display: block;
+  transition: 0.3s;
+  color : whitesmoke;
+}
+
+.overlay p{
+  margin: 200px;
+  font-size: 24px;
+  display: block;
+  transition: 0.3s;
+  color : whitesmoke;
+  text-align: center;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 45px;
+  font-size: 50px;
+  color: white;
+  text-decoration:none;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
