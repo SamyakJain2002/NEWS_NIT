@@ -1,0 +1,71 @@
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.904);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+ 
+
+.overlay h1{
+  padding: 0px;
+  text-decoration: none;
+  font-size:5vw;
+  display: block;
+  transition: 0.3s;
+  color : whitesmoke;
+}
+.overlay h2{
+  padding: 0px;
+  margin-top:7%;
+  margin-bottom: 2%;
+  text-align: center;
+  text-decoration: none;
+  font-size:7vw;
+  display: block;
+  transition: 0.3s;
+  color : whitesmoke;
+  font-family:Starstruck;
+}
+.overlay p{
+  margin-top: 1empx;
+  font-size: 24px;
+  display: block;
+  transition: 0.3s;
+  color : whitesmoke;
+  text-align: center;
+  margin-left:10em ;
+  margin-right:10em ;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 50px;
+  color: whitesmoke;
+  text-decoration:none;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
