@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="./css/background.css">
 <link rel="stylesheet" href="./css/navbar.css">
 <link rel="stylesheet" href="./css/welcome.css">
+<link rel="stylesheet" href="./css/overlay.css">
+<link rel="stylesheet" href="./css/infolink.css">
+<link rel="stylesheet" href="./css/hover.css">
+<link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 <div class="bg">
@@ -13,13 +17,104 @@
 <div class='console-underscore' id='console'>&#95;</div></div>
   <div class="container">
     <div class="topnav">
-      <img src="./image/logo.png" alt="Smiley face" style="float:left;width:84px;height:60px;" />
-	  <img src="./image/info.png" alt="Smiley face" style="float:right;width:53px;height:60px;" />
+      <a href="javascript:void(0)" onclick="openNav(1)" >
+      <img src="./image/logo2.png" alt="Smiley face" style="float:left;width:257.74px;height:100px;" />
+	  </a>
+	  <a href="javascript:void(0)" onclick="openNav(2)" >
+	  <img src="./image/info1.png" alt="Smiley face" style="float:right;width:66px;height:75px;" />
+	  </a>
     </div>
-	</div>
+	
+  </div>
+</div>
+<div id="myNavLeft" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(1)">&times;</a>
+  <div class="overlay-content">
+  
+  </div>
+</div>
+<div id="myNavRight" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav(2)">&times;</a>
+  <h2>Top Stories</h2>
+  <div class="overlay-content">
+<div class="responsive">
+  <div class="gallery">
+    <div class="container2">
+    <a target="_blank" >
+      <img src="./image/17.jpg" alt="Cinque Terre" class="image" width=100% height="250">
+      <div class="middle">
+        <div class="text">Culture</div>
+      </div>
+    </a>
+    </div> 
+  </div>
 </div>
 
-<script src="./js/animate_text.js"></script>
- 
+
+<div class="responsive">
+  <div class="gallery">
+    <div class="container2">
+    <a target="_blank">
+      <img src="./image/21.jpg" alt="Cinque Terre" class="image" width=100% height="250">
+      <div class="middle">
+        <div class="text">Sports</div>
+      </div>
+    </a>
+    </div> 
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <div class="container2">
+    <a target="_blank">
+      <img src="./image/20.png" alt="Cinque Terre" class="image" width=100% height="250">
+      <div class="middle">
+        <div class="text">Weekend</div>
+      </div>
+    </a>
+    </div> 
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <div class="container2">
+    <a target="_blank">
+      <img src="./image/18.jpg" alt="Cinque Terre" class="image" width=100% height="250">
+      <div class="middle">
+        <div class="text">Blog</div>
+      </div>
+    </a>
+    </div> 
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <div class="container2">
+    <a target="_blank" >
+      <img src="./image/22.jpg" alt="Cinque Terre" class="image" width=100% height="250">
+      <div class="middle">
+        <div class="text">Technical</div>
+      </div>
+    </a>
+    </div> 
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+<footer>
+  <a href="#" class="fa fa-facebook" style="float: left;"></a>
+  <a href="#" class="fa fa-twitter" style="float: left;"></a>
+  <a href="#" class="fa fa-google" style="float: left;"></a>
+  <a href="#" class="fa fa-instagram" style="float: left;" ></a>
+  <b>Copyright@NITH</b>
+  </footer>
+  <script src="./js/animate_text.js"></script>
+  <script src="./js/top_nav.js"></script>
+  <script src="./js/navbar_contents.js"></script>
 </body>
 </html>
+</div>
